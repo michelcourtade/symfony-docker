@@ -22,6 +22,10 @@ Double-check the changes, revert the changes that you don't want to keep:
     git diff
     ...
 
+Make sure that you have the Frankenphp Symfony Runtime installed or install it :
+
+    composer require runtime/frankenphp-symfony
+    
 Build the Docker images:
 
     docker compose build --no-cache --pull
